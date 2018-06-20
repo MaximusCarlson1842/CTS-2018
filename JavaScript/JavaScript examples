@@ -1,0 +1,43 @@
+var age = 98;
+var ageTwo = 15;
+
+/*if (age === ageTwo) { using three brackets is a good idea
+  console.log('They are equal'); Example of a strict Equal
+}*/
+
+/*if (age !== ageTwo) {
+  console.log('Not Equal');
+} Example of a loose not equals to*/
+/*if (age >= 25) {
+  console.log('Old enough to rent a car');
+}Example of a strict not equals*/
+
+/* Example of an if/else statement
+if (age <= 10) {
+  console.log("You are too young!");
+} else {
+    console.log("You are too old!");
+  }*/
+  /* Example of if/else/if statement*/
+/*if (age <= 10) {
+  console.log("You are not able to complete this task");
+  console.log("You are maybe able to complete this task");
+  console.log("You are able to complete this task");
+} else if (age > 16 && age < 25) {
+  console.log("You are able to complete this task")
+  console.log("This task will be easy for you")
+  console.log("This task is too low level for you");
+}*/
+var datapoint = 'Hi there';
+
+switch (typeof dataPoint) {
+  case "string":
+    console.log('It is a string!');
+    break;
+  case "number":
+      console.log('It is a number!');
+
+      break;
+  default:
+  console.log("No Matches")
+}

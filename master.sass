@@ -1,0 +1,18 @@
+// list
+$cars: 'porsche', 'maserati', 'tesla'
+
+// Each directive
+@each $car-name in $cars
+  // String interpolation
+  .car-#{$car-name}
+    background-repeat: no-repeat
+    background-image: url("https://s3.amazonaws.com/bottega-devcamp/scss/cars/#{$car-name}.jpg")
+    height: 300px
+    width: 500px
+    float: left
+    object-fit: fill
+.spiffington
+    font-family: cursive
+    font-size: 35px
+    text-align: left
+    color: #0b44a0
